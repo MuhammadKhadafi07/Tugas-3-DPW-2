@@ -29,15 +29,14 @@
                 <li><a href="{{url('beranda')}}"><i class="fa fa-home"></i>Beranda</a></li>
                 <li><a href="{{url('kategori')}}"><i class="fa fa-pencil"></i>Kategori</a></li>
                 <li><a href="{{url('produk')}}"><i class="fa fa-heart"></i>Produk</a></li>
+                <li><a href="{{url('user')}}"><i class="fa fa-user"></i>User</a></li>
                 </ul>
               </div>
               <div class="menu_section">
                 <ul class="nav side-menu">
                   <li><a><i class="fa fa-bug"></i> Master Data <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="{{url('user')}}">Profile</a></li>
-                      <li><a href="#">E-commerce</a></li>
-                      <li><a href="#">Contacts</a></li>
+                      <li><a href="{{url('profile')}}">Profile</a></li>
                     </ul>
                   </li>
                 </ul>

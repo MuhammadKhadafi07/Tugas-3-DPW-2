@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Template E-Commerce
+
 Route::get('/home', function () {
     return view('ecommerce.home');
 });
@@ -68,4 +70,8 @@ Route::get('/user', function () {
 
 Route::get('/adminlogin', function () {
     return view('adminlogin');
+});
+
+Route::get('/profile', function () {
+    return view('profile');
 });
