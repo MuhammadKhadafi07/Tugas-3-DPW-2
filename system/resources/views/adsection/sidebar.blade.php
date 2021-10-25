@@ -29,7 +29,7 @@
                 <li><a href="{{url('beranda')}}"><i class="fa fa-home"></i>Beranda</a></li>
                 <li><a href="{{url('kategori')}}"><i class="fa fa-pencil"></i>Kategori</a></li>
                 <li><a href="{{url('produk')}}"><i class="fa fa-heart"></i>Produk</a></li>
-                <li><a href="{{url('user')}}"><i class="fa fa-user"></i>User</a></li>
+                <li><a href="{{url('user')}}"><i class="fa fa-user"></i>Pengguna</a></li>
                 </ul>
               </div>
               <div class="menu_section">
